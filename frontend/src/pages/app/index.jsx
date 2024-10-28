@@ -13,7 +13,7 @@ export default function App() {
                 <p>Loja</p>
                </div>
                <div className='localiza-botao'>
-                <Link to="/client" className='botao'>Agendar Horário</Link>
+                <Link to="/client" className='botao'>Agendarr Horário</Link>
                </div>
             </header>
             <div className='texto'>
