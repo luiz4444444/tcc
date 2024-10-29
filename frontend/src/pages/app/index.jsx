@@ -47,19 +47,19 @@ export default function App() {
                     <div className='card'>
                         <img src="/assets/images/corte1.png" alt="corte-de-cabelo" />
                         <h2>Corte de Cabelo</h2>
-                        <p>R$ 35,00</p>
+                        <p className='precos-cardes'>R$ 35,00</p>
                     </div>
 
                     <div className='card'>
                         <img src="/assets/images/corte2.png" alt="corte-completo" />
                         <h2>Corte de Cabelo</h2>
-                        <p>R$ 40,00</p>
+                        <p className='precos-cardes'>R$ 40,00</p>
                     </div>
 
                     <div className='card'>
                         <img src="/assets/images/corte3.png" alt="corte-e-barba" />
                         <h2>Corte e Barba</h2>
-                        <p>R$ 65,00</p>
+                        <p className='precos-cardes'>R$ 65,00</p>
                     </div>
                 </div>
                 <div className='barbeiros'></div>

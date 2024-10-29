@@ -122,8 +122,17 @@
             p {
                 font: 300 16px 'Poppins'; 
                 color: #000000;
-                margin-top: -25px;
-                margin-left: 170px;
+            }
+
+            .precos-cardes{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #000000;
+                color: #ffffff;
+                width: 93px;
+                height: 23px;
+                border-radius: 9px;
             }
         }
 }
