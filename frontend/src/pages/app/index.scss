@@ -99,6 +99,7 @@
     }
 
     .cardes {
+            border: 1px solid #f00;
             display: flex;
             justify-content: space-around; 
             padding: 20px;
@@ -106,33 +107,34 @@
             .card {
                 background-color: #fff; 
                 border-radius: 10px;
-                width: 250px;
+                width: 270px;
             }
 
             img {
-                width: 250px;
+                width: 270px;
             }
             
             h2 {
                 font: 700 16px 'Poppins';
-
                 margin-left: 10px;
             }
 
             p {
-                font: 300 16px 'Poppins'; 
+                font: 200 14px 'Poppins'; 
                 color: #000000;
             }
 
             .precos-cardes{
+                border: 1px solid #f00;
+                background-color: #080B16;
+                color: #ffffff;
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                background-color: #000000;
-                color: #ffffff;
-                width: 93px;
+                align-items: center; 
+                width: 70px;
                 height: 23px;
                 border-radius: 9px;
+                margin: -2px -5px -10px 180px;
             }
         }
 }
