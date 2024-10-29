@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
-.texto{
-    padding: 20px 3%;
+.area-introducao{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10px;
     color: #ffff;
+    height: 700px;
 
     .barber{
         font-size: 110px;
@@ -32,5 +31,30 @@
 
     .baixo{
         padding-top: 50px;
+    }
+}
+
+.sobre{
+    background-color: #ffffff;
+    height: 700px;
+    width: 100%;
+
+    .area-sobre{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        width: 650px;
+
+        .titulo-sobre{
+            font: 700 40px;
+            gap: 10px;
+        }
+        .text-sobre{
+            font-size: 17px;
+            text-align: start;
+        }
+        .horario{
+            font: 700 17px;
+        }
     }
 }

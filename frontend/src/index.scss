@@ -6,7 +6,7 @@
 };
 
 body {
-  background: #020024;
+  background: #000000;
 }
 
 .botao{
@@ -22,11 +22,11 @@ body {
 }
 
 .cabecalho { 
-  height: 90px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   gap: 10px;
-  background-color: #04050C;
+  background-color: #141414;
 
   .localiza-botao{
     display: flex;
@@ -40,7 +40,7 @@ body {
   .icone{
     width: 68px;
     height: 61px;
-    margin: 14px;
+    margin: auto 20px;
   }
 
  .textos{
@@ -48,7 +48,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin: 0px 23px;
+  margin: 0px 13px;
 
   p{
     display: flex;
