@@ -30,7 +30,7 @@
         padding-top: 40px;
     }
 
-    .baixo{
+    .baixo-botao{
         padding-top: 50px;
     }
 }
@@ -99,42 +99,50 @@
     }
 
     .cardes {
-            border: 1px solid #f00;
-            display: flex;
-            justify-content: space-around; 
-            padding: 20px;
+        display: flex;
+        justify-content: space-around; 
+        padding: 20px;
 
-            .card {
-                background-color: #fff; 
-                border-radius: 10px;
-                width: 270px;
-            }
+        .card {
+            background-color: #fff; 
+            border-radius: 10px;
+            width: 270px;
 
             img {
                 width: 270px;
-            }
-            
-            h2 {
-                font: 700 16px 'Poppins';
-                margin-left: 10px;
+                border-radius: 10px 10px 0px 0px;
             }
 
-            p {
-                font: 200 14px 'Poppins'; 
-                color: #000000;
-            }
-
-            .precos-cardes{
-                border: 1px solid #f00;
-                background-color: #080B16;
-                color: #ffffff;
+            .baixo-carde{
+                width: auto;
+                height: 40px;
                 display: flex;
                 justify-content: center;
-                align-items: center; 
-                width: 70px;
-                height: 23px;
-                border-radius: 9px;
-                margin: -2px -5px -10px 180px;
+                align-items: center;
+                flex-direction: row;
+                gap: 40px;
+
+                h2 {
+                    font: 700 16px 'Poppins';
+                    margin-left: 10px;
+                }
+
+                p {
+                    font: 200 14px 'Poppins'; 
+                    color: #000000;
+                }
+    
+                .precos-cardes{
+                    background-color: #080B16;
+                    color: #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; 
+                    width: 70px;
+                    height: 23px;
+                    border-radius: 9px;
+                }
             }
-        }
+        }   
+    }
 }

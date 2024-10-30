@@ -21,7 +21,7 @@ export default function App() {
                 <h1 className='barber'>Ale Barber</h1>
                 <h2 className='titulo-text'>CURTA NOSSOS SERVIÇOS DE BARBEIRO</h2>
                 <p className='introducao'>Hórario de funcionamento: 09:00 às 18:00</p>
-                <div className='baixo'>
+                <div className='baixo-botao'>
                     <Link to="/client" className='botao'>Agendar Horário</Link>
                 </div>
             </div>
@@ -46,21 +46,30 @@ export default function App() {
                 <div className='cardes'>
                     <div className='card'>
                         <img src="/assets/images/corte1.png" alt="corte-de-cabelo" />
-                        <h2>Corte de Cabelo</h2>
-                        <p className='precos-cardes'>R$ 35,00</p>
+                        <div className='baixo-carde'> 
+                            <h2>Corte de Cabelo</h2>
+                            <p className='precos-cardes'>R$ 35,00</p>
+                        </div>
+                       
                     </div>
 
                     <div className='card'>
                         <img src="/assets/images/corte2.png" alt="corte-completo" />
-                        <h2>Corte de Cabelo</h2>
-                        <p className='precos-cardes'>R$ 40,00</p>
+                        <div className='baixo-carde'>
+                            <h2>Corte de Cabelo</h2>
+                            <p className='precos-cardes'>R$ 40,00</p>
+                        </div>
+                        
                     </div>
 
                     <div className='card'>
                         <img src="/assets/images/corte3.png" alt="corte-e-barba" />
-                        <h2>Corte e Barba</h2>
-                        <p className='precos-cardes'>R$ 65,00</p>
+                        <div className='baixo-carde'>
+                            <h2>Corte e Barba</h2>
+                            <p className='precos-cardes'>R$ 65,00</p>
+                        </div>
                     </div>
+
                 </div>
                 <div className='barbeiros'></div>
             </div>
