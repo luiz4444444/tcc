@@ -43,54 +43,56 @@ export default function App() {
                     <h1>Serviços</h1>
                     <p>Transforme seu visual com nossos cuidados especializados. Aqui na Ale Barber, oferecemos uma experiência única, desde cortes clássicos até estilos modernos. Venha descobrir o que podemos fazer por você!</p>
                 </div>
+
                 <div className='cardes'>
-                    <div className='card'>
-                        <img src="/assets/images/corte1.png" alt="corte-de-cabelo" />
-                        <div className='baixo-carde'> 
-                            <h2>Corte de Cabelo</h2>
-                            <p className='precos-cardes'>R$ 35,00</p>
+                    <div className='mae'>
+                        <div className='card'>
+                            <img src="/assets/images/corte1.png" alt="corte-de-cabelo" />
+                                <div className='baixo-carde'> 
+                                    <h2>Corte de Cabelo</h2>
+                                    <p className='precos-cardes'>R$ 35,00</p>
+                                </div>
                         </div>
-                       
+
+                        <div className='card'>
+                            <img src="/assets/images/corte2.png" alt="corte-completo" />
+                                <div className='baixo-carde'>
+                                    <h2>Corte de Cabelo</h2>
+                                    <p className='precos-cardes'>R$ 40,00</p>
+                                </div>
+                        </div>
+
+                        <div className='card'>
+                            <img src="/assets/images/corte3.png" alt="corte-e-barba" />
+                                <div className='baixo-carde'>
+                                    <h2>Corte e Barba</h2>
+                                    <p className='precos-cardes'>R$ 65,00</p>
+                                </div>
+                        </div>
                     </div>
-
-                    <div className='card'>
-                        <img src="/assets/images/corte2.png" alt="corte-completo" />
-                        <div className='baixo-carde'>
-                            <h2>Corte de Cabelo</h2>
-                            <p className='precos-cardes'>R$ 40,00</p>
+                    
+                    <div className="barbeiros"> 
+                        <div className="area-barbeiros"> 
+                            <img src="/assets/images/BARBEIRO1.png" alt="Luiz Guilherme"/>
+                                    <div className="apricativos"> 
+                                        <img src="/assets/images/twitter.png" alt="Twitter"/> 
+                                        <img src="/assets/images/instagram.png" alt="Instagram"/> 
+                                        <img src="/assets/images/facebook.png" alt="facebook"/> 
+                                    </div> 
+                                </div> 
+                                
+                                <div className="area-barbeiros"> 
+                                    <img src="/assets/images/BARBEIRO2.png" alt="Gabriel Chaves"/> 
+                                    <div className="apricativos"> 
+                                        <img src="/assets/images/twitter.png" alt="Twitter"/> 
+                                        <img src="/assets/images/instagram.png" alt="Instagram"/> 
+                                        <img src="/assets/images/facebook.png" alt="facebook"/> 
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
                     </div>
-
-                    <div className='card'>
-                        <img src="/assets/images/corte3.png" alt="corte-e-barba" />
-                        <div className='baixo-carde'>
-                            <h2>Corte e Barba</h2>
-                            <p className='precos-cardes'>R$ 65,00</p>
-                        </div>
-                    </div>
-
-                    <div className='area-barbeiros'>
-                        <div className='contat-barbeiros'>
-                            <img src="" className='' />
-                            <p></p>
-                            <img src="" className='' />
-                            <img src="" className='' />
-                            <img src="" className='' />
-                        </div>
-                        <div className='contat-barbeiros'>
-                        <img src="" className='' />
-                            <p></p>
-                            <img src="" className='' />
-                            <img src="" className='' />
-                            <img src="" className='' />
-                        </div>
-
-                    </div>
-
                 </div>
-                <div className='barbeiros'></div>
-            </div>
-        </div>
+
     );
 }

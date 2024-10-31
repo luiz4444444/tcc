@@ -77,7 +77,6 @@
 }
 
 .area-servicos {
-    display: flex;
     justify-content: center;
     padding-top: 75px;
     height: 1100px;
@@ -108,56 +107,81 @@
         width: auto;
         gap: 80px;
 
-        .card {
-            background-color: #fff; 
-            border-radius: 10px;
-            width: 270px;
-
-            img {
+        .mae {
+            .card {
+                background-color: #fff; 
+                border-radius: 10px;
                 width: 270px;
-                border-radius: 10px 10px 0px 0px;
-            }
-
-            .baixo-carde{
-                width: auto;
-                height: 40px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: row;
-                gap: 40px;
-
-                h2 {
-                    font: 700 16px 'Poppins';
-                    margin-left: 10px;
-                }
-
-                p {
-                    font: 200 14px 'Poppins'; 
-                    color: #000000;
+    
+                img {
+                    width: 270px;
+                    border-radius: 10px 10px 0px 0px;
                 }
     
-                .precos-cardes{
-                    background-color: #080B16;
-                    color: #ffffff;
+                .baixo-carde{
+                    width: auto;
+                    height: 40px;
                     display: flex;
                     justify-content: center;
-                    align-items: center; 
-                    width: 70px;
-                    height: 23px;
-                    border-radius: 9px;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 40px;
+    
+                    h2 {
+                        font: 700 16px 'Poppins';
+                        margin-left: 10px;
+                    }
+    
+                    p {
+                        font: 200 14px 'Poppins'; 
+                        color: #000000;
+                        text-align: center;
+                    }
+        
+                    .precos-cardes{
+                        background-color: #080B16;
+                        color: #ffffff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; 
+                        width: 70px;
+                        height: 23px;
+                        border-radius: 9px;
+                    }
                 }
             }
-        }   
+        }
+    }
+    
+    .barbeiros { 
+        display: flex;
+        justify-content: space-around;
+        gap: 150px;
+        margin-bottom: 40px;
+        
+        .area-barbeiros img {
+            width: 200px; 
+            height: auto; 
+        } 
+        
+    
+        .apricativos { 
+            display: flex; 
+            justify-content: center; 
+            margin-top: 5px; 
+        }
+    
+        .apricativos img { 
+            margin: 0 5px; 
+            width: 24px; height: 24px; 
+        }
     }
 }
 
-.area-barbeiros {
-    background-color: #ffffff;
-    width: 1200px;
-    height: 200px;
+
+
+
 
     .contat-barbeiros {
         display: flex;
     }
-}
