@@ -70,7 +70,8 @@ export default function App() {
                                 </div>
                         </div>
                     </div>
-                    
+                </div>
+
                     <div className="barbeiros"> 
                         <div className="area-barbeiros"> 
                             <img src="/assets/images/BARBEIRO1.png" alt="Luiz Guilherme"/>
@@ -92,7 +93,7 @@ export default function App() {
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
     );
 }

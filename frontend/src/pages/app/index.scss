@@ -107,7 +107,12 @@
         width: auto;
         gap: 80px;
 
-        .mae {
+        .mae { // NAO MEXE PORRA 
+            display: flex;
+            justify-content: center;
+            padding-bottom: 150px;
+            gap: 50px;
+
             .card {
                 background-color: #fff; 
                 border-radius: 10px;
@@ -155,9 +160,9 @@
     
     .barbeiros { 
         display: flex;
-        justify-content: space-around;
-        gap: 150px;
+        justify-content: center;
         margin-bottom: 40px;
+        gap: 150px;
         
         .area-barbeiros img {
             width: 200px; 
