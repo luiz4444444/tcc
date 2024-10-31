@@ -33,9 +33,9 @@ export default function App() {
                 </div>
                 <div className='sobre'>
                     <h1 className='titulo-sobre'>Sobre</h1>
-                    <p className='text-sobre'><strong>Bem-vindo à Ale Barber! Aqui, a gente não faz só cortes; a gente cria experiências. Somos um time de apaixonados por estilo, prontos para transformar seu visual e elevar sua autoestima. Desde a nossa abertura, a ideia é simples: oferecer um espaço descontraído, onde você pode relaxar, bater um papo e sair se sentindo incrível. A gente acredita que cada detalhe conta, desde um corte bem feito até aquele atendimento acolhedor. Seja pra dar um tapa no visual ou pra desestressar no dia a dia, estamos aqui pra te atender do jeitinho que você merece. Venha conhecer a gente e fazer parte da nossa família!</strong></p>
+                    <p className='texto-sobre'> Bem-vindo à Ale Barber! Aqui, a gente não faz só cortes; a gente cria experiências.<br /> Somos um time de apaixonados por estilo, prontos para transformar seu visual e elevar sua autoestima.<br /> Desde a nossa abertura, a ideia é simples:<br /> oferecer um espaço descontraído, onde você pode relaxar, bater um papo e sair se sentindo incrível.<br /> A gente acredita que cada detalhe conta,<br /> desde um corte bem feito até aquele atendimento acolhedor.<br /> Seja pra dar um tapa no visual ou pra desestressar no dia a dia,<br /> estamos aqui pra te atender do jeitinho que você merece.<br /> Venha conhecer a gente e fazer parte da nossa família! </p>
                     <h3 className='horario'>Horário de funcionamento 08:00 as 18:00</h3>
-                </div>
+                </div> 
             </div>
 
             <div className='area-servicos'>

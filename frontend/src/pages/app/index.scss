@@ -63,15 +63,15 @@
         width: 647px;
 
         .titulo-sobre{
-            font: 700 40px;
+            font: 720 40px 'Poppins';
             gap: 10px;
         }
-        .text-sobre{
-            font-size: 17px;
-            text-align: start;
+        .texto-sobre{
+            font: 400 16px 'Poppins';
         }
         .horario{
-            font: 700 17px;
+            font: 700 16px 'Poppins';
+            text-align: start;
         }
     }
 }
