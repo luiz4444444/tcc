@@ -6,7 +6,7 @@ export default function App() {
     return(
         <div className='pagina-cliente pagina'>
             <header className='cabecalho'> 
-                <img src="/assets/images/account.png" className='icone' />
+                <img src="/assets/images/account.png" className='icone' alt='usuario'/>
                <div className='textos'>
                 <p>Sobre</p>
                 <p>Serviços</p>
@@ -29,7 +29,7 @@ export default function App() {
 
             <div className='area-sobre'>
                 <div className='trabalhos'>
-                    <img src="/assets/images/wader.jpg"/>
+                    <img src="/assets/images/wader.jpg" alt=''/>
                 </div>
                 <div className='sobre'>
                     <h1 className='titulo-sobre'>Sobre</h1>
@@ -93,6 +93,29 @@ export default function App() {
                 </div>
             </div>
 
+            <div className='area-unidade'>
+                <h1 className='titulo-unidade'>Nossas unidades</h1> 
+                <div className='mae'>
+                    <div className='cardes-unidades'>
+                        <img src="/assets/images/unidade1.png" className='fotos-unidades'/>
+                        <div className='localizacao-barbearia'>
+                            <p>Rua João Bernardo Mendonça, n 35</p>
+                            <h3>Grajaú - SP</h3>
+                        </div>
+                    </div>
+                    <div className='cardes-unidades'>
+                        <img src="/assets/images/unidade2.png" className='fotos-unidades'/>
+                    </div>
+        
+                    <div>
+                        <img src="/assets/images/" alt="" />
+                        <img src="/assets/images/" alt="" />
+                        <img src="/assets/images/" alt="" />
+                    </div>
+                </div>
+                <img src="/assets/images/" alt="" />
+                <img src="/assets/images/" alt="" />
+            </div>
                 
         </div>
     );

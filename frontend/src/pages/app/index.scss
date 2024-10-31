@@ -60,7 +60,7 @@
         display: flex;
         flex-direction: column;
         gap: 19px;
-        width: 647px;
+        width: 660px;
 
         .titulo-sobre{
             font: 720 40px 'Poppins';
@@ -79,12 +79,12 @@
 .area-servicos {
     justify-content: center;
     padding-top: 75px;
-    height: 1100px;
+    height: auto;
     
     .textos {
         background-color: #000; 
         color: #fff; 
-        text-align: center; 
+        text-align: center;
         padding: 20px;
         
         h1 {
@@ -95,7 +95,8 @@
         p {
             font: 300 16px 'Poppins';
             max-width: 730px;
-            margin-left: 270px;
+            margin-left: auto;
+            margin-right: auto;
             margin-bottom: 100px;
         }
     }
@@ -179,15 +180,60 @@
     
         .apricativos img { 
             margin: 0 5px; 
-            width: auto; height: 20px; 
+            width: auto; 
+            height: 20px; 
         }
     }
 }
 
+.area-unidade{
+    justify-content: center;
+    padding-top: 75px;
+    height: auto;
+    background-color: #ffffff;
 
-
-
-
-    .contat-barbeiros {
+    .titulo-unidade{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: auto;
+        font: 700 40px 'Poppins';
     }
+
+    .cardes-unidades{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        gap: 150px;
+
+        .mae{
+            display: flex;
+            justify-content: center;
+        }
+
+        .fotos-unidades{
+            width: 420px;
+            height: 487px;
+            border-radius: 16px;
+        }
+
+        .localizacao-barbearia{
+            position: absolute;
+            height: auto;
+            text-align: center;
+            background-color: #000000;
+            color: #ffffff;
+            width: 300px;
+            height: 44px;
+            border-radius: 8px;
+            
+            p{
+                font: 700 12px;
+            }
+            h3{
+                font: 400 16px;
+            }
+        }
+    }
+}
