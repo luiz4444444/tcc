@@ -5,7 +5,7 @@ export default function App() {
 
     return(
         <div className='pagina-cliente pagina'>
-            <header className='cabecalho'>
+            <header className='cabecalho'> 
                 <img src="/assets/images/account.png" className='icone' />
                <div className='textos'>
                 <p>Sobre</p>
@@ -72,28 +72,28 @@ export default function App() {
                     </div>
                 </div>
 
-                    <div className="barbeiros"> 
-                        <div className="area-barbeiros"> 
-                            <img src="/assets/images/BARBEIRO1.png" alt="Luiz Guilherme"/>
-                                    <div className="apricativos"> 
-                                        <img src="/assets/images/twitter.png" alt="Twitter"/> 
-                                        <img src="/assets/images/instagram.png" alt="Instagram"/> 
-                                        <img src="/assets/images/facebook.png" alt="facebook"/> 
-                                    </div> 
-                                </div> 
-                                
-                                <div className="area-barbeiros"> 
-                                    <img src="/assets/images/BARBEIRO2.png" alt="Gabriel Chaves"/> 
-                                    <div className="apricativos"> 
-                                        <img src="/assets/images/twitter.png" alt="Twitter"/> 
-                                        <img src="/assets/images/instagram.png" alt="Instagram"/> 
-                                        <img src="/assets/images/facebook.png" alt="facebook"/> 
-                                    </div>
-                                </div>
-                            </div>
+                <div className="barbeiros"> 
+                    <div className="area-barbeiros"> 
+                        <img src="/assets/images/BARBEIRO1.png" alt="Luiz Guilherme"/>
+                        <div className="apricativos"> 
+                            <img src="/assets/images/twitter.png" alt="Twitter"/> 
+                            <img src="/assets/images/instagram.png" alt="Instagram"/> 
+                            <img src="/assets/images/facebook.png" alt="facebook"/> 
+                        </div> 
+                    </div> 
+                            
+                    <div className="area-barbeiros"> 
+                        <img src="/assets/images/BARBEIRO2.png" alt="Gabriel Chaves"/> 
+                        <div className="apricativos"> 
+                            <img src="/assets/images/twitter.png" alt="Twitter"/> 
+                            <img src="/assets/images/instagram.png" alt="Instagram"/> 
+                            <img src="/assets/images/facebook.png" alt="facebook"/> 
                         </div>
                     </div>
-                
+                </div>
+            </div>
 
+                
+        </div>
     );
 }
