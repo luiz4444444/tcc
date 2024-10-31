@@ -70,6 +70,24 @@ export default function App() {
                         </div>
                     </div>
 
+                    <div className='area-barbeiros'>
+                        <div className='contat-barbeiros'>
+                            <img src="" className='' />
+                            <p></p>
+                            <img src="" className='' />
+                            <img src="" className='' />
+                            <img src="" className='' />
+                        </div>
+                        <div className='contat-barbeiros'>
+                        <img src="" className='' />
+                            <p></p>
+                            <img src="" className='' />
+                            <img src="" className='' />
+                            <img src="" className='' />
+                        </div>
+
+                    </div>
+
                 </div>
                 <div className='barbeiros'></div>
             </div>
