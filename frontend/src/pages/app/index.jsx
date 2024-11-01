@@ -96,8 +96,9 @@ export default function App() {
             <div className='area-unidade'>
                 <h1 className='titulo-unidade'>NOSSAS UNIDADES</h1>
                 <div className='unidades'>
+
                     <div className='card-unidade'>
-                        <img src="/assets/images/unidade1.png" className='fotos-unidades'/>
+                        <img src="/assets/images/unidade1.png" className='fotos-unidades1'/>
                         <div className='info-barbearia'>
                             <p className='endereço'>Rua João Bernardo Mendonça, n 35</p>
                             <h3 className='cidade'>Grajaú - SP</h3>
@@ -105,18 +106,20 @@ export default function App() {
                     </div>
 
                     <div className='card-unidade'>
-                        <img src="/assets/images/unidade2.png" className='fotos-unidades'/>
+                        <img src="/assets/images/unidade2.png" className='fotos-unidades2'/>
                         <div className='info-barbearia'>
                             <p className='endereço'>Rua Centro, n 10</p>
                             <h3 className='cidade'>São Paulo - SP</h3>
                         </div>
                     </div>
-        
+
                     <div className="apricativos"> 
-                        <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
-                        <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
-                        <img src="/assets/images/facebookblack.png" alt="facebook"/> 
+                            <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
+                            <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
+                            <img src="/assets/images/facebookblack.png" alt="facebook"/> 
                     </div>
+
+        
                 </div>
                 <img src="/assets/images/" alt="" />
                 <img src="/assets/images/" alt="" />
