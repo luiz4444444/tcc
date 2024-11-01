@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+
+import React, { useEffect, useState, useRef } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
+
 const Agendamento = () => {
+  const myRef = useRef(null);
   const [nome, setNome] = useState('');
   const [data, setData] = useState(new Date());
   const [unidade, setUnidade] = useState('');
@@ -20,6 +23,11 @@ const Agendamento = () => {
     }
   };
 
+  useEffect(() => {
+    if (myRef.current) {
+
+    }
+  }, []);
 
   return (
     <div style={styles.modal}>
