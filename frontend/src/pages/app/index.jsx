@@ -95,7 +95,7 @@ export default function App() {
 
             <div className='area-unidade'>
                 <h1 className='titulo-unidade'>NOSSAS UNIDADES</h1>
-                <div className='unidades'> {div_mae_aqui}
+                <div className='unidades'>
                     <div className='card-unidade'>
                         <img src="/assets/images/unidade1.png" className='fotos-unidades'/>
                         <div className='info-barbearia'>
