@@ -112,11 +112,11 @@ export default function App() {
                         </div>
                     </div>
         
-                    {/* <div className="apricativos"> 
+                    <div className="apricativos"> 
                         <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
                         <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
                         <img src="/assets/images/facebookblack.png" alt="facebook"/> 
-                    </div> */}
+                    </div>
                 </div>
                 <img src="/assets/images/" alt="" />
                 <img src="/assets/images/" alt="" />
