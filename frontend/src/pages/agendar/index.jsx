@@ -1,135 +1,58 @@
 import React, { useState } from 'react';
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
+import './index.scss';
 
-const Agendamento = () => {
-  const [nome, setNome] = useState('');
-  const [data, setData] = useState(new Date());
-  const [unidade, setUnidade] = useState('');
-  const [horario, setHorario] = useState('');
-  const [mensagem, setMensagem] = useState('');
+export default function Agendar() {
+  
+  const [name, setName] = useState('');
+  const [date, setDate] = useState('');
+  const [unit, setUnit] = useState('');
+  const [time, setTime] = useState('');
 
-  const unidades = ['Cocaia - São Paulo', 'Outra Unidade']; // Exemplo de unidades disponíveis
-  const horarios = ['09:00', '10:00', '11:00', '12:00'];
-
-  const handleAgendar = () => {
-    if (nome && data && unidade && horario) {
-      setMensagem(`Agendamento realizado para ${nome} em ${data.toLocaleDateString()} às ${horario} na unidade ${unidade}.`);
-    } else {
-      setMensagem('Por favor, preencha todos os campos.');
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(`Agendamento confirmado para ${name} em ${date} às ${time} na unidade ${unit}`);
   };
 
-
   return (
-    <div style={styles.modal}>
+    <div className="scheduler">
       <h2>Agendar horário</h2>
-      
-      <input
-        type="text"
-        placeholder="Digite seu nome"
-        value={nome}
-        onChange={(e) => setNome(e.target.value)}
-        style={styles.input}
-      />
-
-      <label>Selecione a data</label>
-      <DatePicker
-        selected={data}
-        onChange={(date) => setData(date)}
-        dateFormat="dd/MM/yyyy"
-        style={styles.datePicker}
-      />
-
-      <label>Selecione uma unidade</label>
-      <select
-        value={unidade}
-        onChange={(e) => setUnidade(e.target.value)}
-        style={styles.select}
-      >
-        <option value="">Selecione uma unidade</option>
-        {unidades.map((uni, index) => (
-          <option key={index} value={uni}>{uni}</option>
-        ))}
-      </select>
-
-      <label>Selecione um horário</label>
-      <div style={styles.horariosContainer}>
-        {horarios.map((h, index) => (
-          <button
-            key={index}
-            onClick={() => setHorario(h)}
-            style={{
-              ...styles.horarioButton,
-              backgroundColor: horario === h ? '#FFBF00' : '#f0f0f0'
-            }}
-          >
-            {h}
-          </button>
-        ))}
-      </div>
-
-      <button onClick={handleAgendar} style={styles.agendarButton}>
-        Agendar horário
-      </button>
-
-      {mensagem && <p>{mensagem}</p>}
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Nome completo</label>
+          <input 
+            type="text" 
+            value={name} 
+            onChange={(e) => setName(e.target.value)} 
+            placeholder="Digite seu nome" 
+          />
+        </div>
+        <div>
+          <label>Selecione a data</label>
+          <input 
+            type="date" 
+            value={date} 
+            onChange={(e) => setDate(e.target.value)} 
+          />
+        </div>
+        <div>
+          <label>Selecione uma unidade</label>
+          <select value={unit} onChange={(e) => setUnit(e.target.value)}>
+            <option value="">Escolha uma unidade</option>
+            <option value="Cocaia - São Paulo">Cocaia - São Paulo</option>
+            {/* Adicione mais opções conforme necessário */}
+          </select>
+        </div>
+        <div>
+          <label>Selecione um horário</label>
+          <div className="time-buttons">
+            <button type="button" onClick={() => setTime('09:00')}>09:00</button>
+            <button type="button" onClick={() => setTime('10:00')}>10:00</button>
+            <button type="button" onClick={() => setTime('11:00')}>11:00</button>
+            <button type="button" onClick={() => setTime('12:00')}>12:00</button>
+          </div>
+        </div>
+        <button type="submit" className="submit-button">Agendar horário</button>
+      </form>
     </div>
   );
 };
-
-const styles = {
-    modal: {
-      padding: '20px',
-      backgroundColor: '#333',
-      color: '#fff',
-      borderRadius: '10px',
-      width: '300px',
-      margin: '0 auto',
-      textAlign: 'center',
-    },
-    input: {
-      width: '100%',
-      padding: '10px',
-      margin: '10px 0',
-      borderRadius: '5px',
-      border: '1px solid #ccc',
-    },
-    datePicker: {
-      width: '100%',
-      padding: '10px',
-      borderRadius: '5px',
-      margin: '10px 0',
-    },
-    select: {
-      width: '100%',
-      padding: '10px',
-      borderRadius: '5px',
-      margin: '10px 0',
-    },
-    horariosContainer: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      margin: '10px 0',
-    },
-    horarioButton: {
-      padding: '10px',
-      borderRadius: '5px',
-      border: 'none',
-      cursor: 'pointer',
-      width: '60px',
-    },
-    agendarButton: {
-      padding: '10px',
-      width: '100%',
-      backgroundColor: '#FFBF00',
-      color: '#000',
-      borderRadius: '5px',
-      border: 'none',
-      cursor: 'pointer',
-      marginTop: '10px',
-    },
-  };
-  
-  export default Agendamento;
-
