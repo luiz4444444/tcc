@@ -1,0 +1,75 @@
+.modal {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  
+    h2 {
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      color: #fff;
+    }
+  
+    .input, .date-picker, .select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+  
+    .date-picker {
+      padding: 0;
+    }
+  
+    .horarios-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+  
+    .horario-button {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      width: 60px;
+      font-size: 1em;
+      background-color: #f0f0f0;
+      color: #333;
+  
+      &.active {
+        background-color: #FFBF00;
+        color: #000;
+      }
+    }
+  
+    .agendar-button {
+      padding: 10px;
+      width: 100%;
+      background-color: #FFBF00;
+      color: #000;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #e6ac00;
+      }
+    }
+  
+    p {
+      margin-top: 15px;
+      font-size: 0.9em;
+      color: #FFBF00;
+    }
+  }
+
+  
