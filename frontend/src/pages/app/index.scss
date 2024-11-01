@@ -51,7 +51,7 @@
         height: auto;
 
         img {
-            width: 600px;
+            width: 500px;
             height: auto;
         }
     }
@@ -65,16 +65,14 @@
         .titulo-sobre{
             font: 720 40px 'Poppins';
             gap: 10px;
-            margin-left: 35px;
         }
         .texto-sobre{
             font: 400 16px 'Poppins';
-            margin-left: 40px;
+            
         }
         .horario{
             font: 700 16px 'Poppins';
             text-align: start;
-            margin-left: 40px;
         }
     }
 }
