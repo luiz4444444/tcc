@@ -209,26 +209,35 @@
 
     .card-unidade {
         width: 300px;
-        border-radius: 10px;
 
-        img {
+    
+        .fotos-unidades {
             width: 300px;
             height: auto;
+            border-radius: 10px;
         }
 
         .info-barbearia {
-            background-color: #000 ;
-            color: #fff;
-            padding: 10px;
-            text-align: left;
+            background-color: #000000;
+            padding: 10px 10px 10px 5px;
+            margin: -85px 10px 10px 18px;
+            border-radius: 10px;
+            border: 2px solid #474747;
+            opacity: 0.5;
+            
 
             .endereço {
-                font: 100 14px 'Poppins';
+                font: 400 14px 'Poppins';
+                color: #ffffff;
+                opacity: 100%;
             }
 
             .cidade {
-                font: 200 16px 'Poppins';
+                font: 800 16px 'Poppins';
+                color: #ffffff;
+                opacity: 100%;
             }
         }
     }
 }
+
