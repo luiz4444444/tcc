@@ -22,7 +22,7 @@ export default function App() {
                 <h2 className='titulo-text'>CURTA NOSSOS SERVIÇOS DE BARBEIRO</h2>
                 <p className='introducao'>Hórario de funcionamento: 09:00 às 18:00</p>
                 <div className='baixo-botao'>
-                    <Link to="/client" className='botao'>Agendar Horário</Link>
+                    <Link to="/agendar" className='botao'>Agendar Horário</Link>
                 </div>
             </div>
 
