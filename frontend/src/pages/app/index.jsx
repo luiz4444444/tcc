@@ -26,7 +26,6 @@ export default function App() {
                 </div>
             </div>
 
-
             <div className='area-sobre'>
                 <div className='trabalhos'>
                     <img src="/assets/images/wader.jpg" alt=''/>

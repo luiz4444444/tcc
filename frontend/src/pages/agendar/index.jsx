@@ -15,9 +15,10 @@ export default function Agendar() {
   };
 
   return (
-    <div className="scheduler">
+    
+    <div className="pagina-agendador">
       <h2>Agendar horário</h2>
-      <form onSubmit={handleSubmit}>
+      <form className='estrutura' onSubmit={handleSubmit}>
         <div>
           <label>Nome completo</label>
           <input 
