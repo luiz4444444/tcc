@@ -22,10 +22,9 @@ export default function App() {
                 <h2 className='titulo-text'>CURTA NOSSOS SERVIÇOS DE BARBEIRO</h2>
                 <p className='introducao'>Hórario de funcionamento: 09:00 às 18:00</p>
                 <div className='baixo-botao'>
-                    <Link to="/client" className='botao'>Agendar Horário</Link>
+                    <Link to="/agendar" className='botao'>Agendar Horário</Link>
                 </div>
             </div>
-
 
             <div className='area-sobre'>
                 <div className='trabalhos'>
@@ -100,14 +99,15 @@ export default function App() {
                     <div className='card-unidade'>
                         <img src="/assets/images/unidade1.png" className='fotos-unidades1'/>
                         <div className='info-barbearia'>
-                            <p className='endereço'>Rua João Bernardo Mendonça, n 35</p>
-                            <h3 className='cidade'>Grajaú - SP</h3>
+                            <p className='endereço'>Avenida Washington Luís, 1234 - Brooklin
+                            </p>
+                            <h3 className='cidade'>São Paulo - SP</h3>
                         </div>
                     </div>
                     <div className='card-unidade'>
                         <img src="/assets/images/unidade2.png" className='fotos-unidades2'/>
                         <div className='info-barbearia'>
-                            <p className='endereço'>Rua Centro, n 10</p>
+                            <p className='endereço'>R. Pedro Escobar, 52 - Jardim Eliana</p>
                             <h3 className='cidade'>São Paulo - SP</h3>
                         </div>
                     </div>
