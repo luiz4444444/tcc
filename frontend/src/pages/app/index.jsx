@@ -104,7 +104,6 @@ export default function App() {
                             <h3 className='cidade'>Grajaú - SP</h3>
                         </div>
                     </div>
-
                     <div className='card-unidade'>
                         <img src="/assets/images/unidade2.png" className='fotos-unidades2'/>
                         <div className='info-barbearia'>
@@ -112,13 +111,19 @@ export default function App() {
                             <h3 className='cidade'>São Paulo - SP</h3>
                         </div>
                     </div>
-
-                    <div className="apricativos"> 
-                            <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
-                            <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
-                            <img src="/assets/images/facebookblack.png" alt="facebook"/> 
+                    <div className='rodape'>
+                        <div className="apricativos"> 
+                            <a href="https://instagram.com"> 
+                                <img src="/assets/images/instagramblack.png" alt="Instagram" /> 
+                            </a>
+                            <a href="https://twitter.com"> 
+                                <img src="/assets/images/twitterblack.png" alt="Twitter" /> 
+                            </a>
+                            <a href="https://facebook.com"> 
+                                <img src="/assets/images/facebookblack.png" alt="Facebook" /> 
+                            </a>
+                        </div>
                     </div>
-
         
                 </div>
                 <img src="/assets/images/" alt="" />

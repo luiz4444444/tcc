@@ -49,7 +49,7 @@
         display: flex;
 
         img {
-            width: 430px;
+            width: 490px;
             height: auto;
             margin-right: 10px;
             margin-left: 15px;
@@ -60,17 +60,20 @@
         display: flex;
         flex-direction: column;
         gap: 19px;
-        width: 660px;
+        width: 700px;
 
         .titulo-sobre{
             font: 720 40px 'Poppins';
+            margin-left: 40px;
         }
         .texto-sobre{
             font: 400 16px 'Poppins';
+            margin-left: 40px;
         }
         .horario{
             font: 700 16px 'Poppins';
             text-align: start;
+            margin-left: 40px;
         }
     }
 }
@@ -240,13 +243,25 @@
     }
 }
 
-.apricativos {
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
+.rodape { 
+    margin-top: 30px; 
+    
+        .apricativos { 
+            display: flex; 
+            justify-content: center; 
+            gap: 10px; 
+            margin-bottom: 10px; 
 
-    a {
-        color: #000;
-        font: 400 20px 'Poppins';
-    }
-}
+                a { color: #000; 
+                    font-size: 20px; 
+                    text-decoration: none; 
+                    
+                    &:hover { 
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+    
+
+
