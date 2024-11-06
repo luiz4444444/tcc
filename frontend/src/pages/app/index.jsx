@@ -75,18 +75,30 @@ export default function App() {
                     <div className="area-barbeiros"> 
                         <img src="/assets/images/BARBEIRO1.png" alt="Luiz Guilherme"/>
                         <div className="apricativos"> 
-                            <img src="/assets/images/twitter.png" alt="Twitter"/> 
-                            <img src="/assets/images/instagram.png" alt="Instagram"/> 
-                            <img src="/assets/images/facebook.png" alt="facebook"/> 
-                        </div> 
+                            <a href="https://twitter.com"> 
+                                <img src="/assets/images/twitter.png" alt="Twitter"/> 
+                            </a> 
+                            <a href="https://instagram.com"> 
+                                <img src="/assets/images/instagram.png" alt="Instagram" className='redes-socias'/> 
+                            </a>
+                            <a href="https://facebook.com"> 
+                                <img src="/assets/images/facebook.png" alt="Facebook" className='redes-socias'/> 
+                            </a>
+                        </div>
                     </div> 
                             
                     <div className="area-barbeiros"> 
                         <img src="/assets/images/BARBEIRO2.png" alt="Gabriel Chaves"/> 
-                        <div className="apricativos"> 
-                            <img src="/assets/images/twitter.png" alt="Twitter"/> 
-                            <img src="/assets/images/instagram.png" alt="Instagram"/> 
-                            <img src="/assets/images/facebook.png" alt="facebook"/> 
+                        <div className="apricativos">
+                            <a href="https://twitter.com"> 
+                                <img src="/assets/images/twitter.png" alt="Twitter" className='redes-socias'/> 
+                            </a> 
+                            <a href="https://instagram.com"> 
+                                <img src="/assets/images/instagram.png" alt="Instagram" className='redes-socias'/> 
+                            </a>
+                            <a href="https://facebook.com"> 
+                                <img src="/assets/images/facebook.png" alt="Facebook" className='redes-socias'/> 
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -114,13 +126,13 @@ export default function App() {
                     <div className='rodape'>
                         <div className="apricativos"> 
                             <a href="https://instagram.com"> 
-                                <img src="/assets/images/instagramblack.png" alt="Instagram" /> 
+                                <img src="/assets/images/instagramblack.png" alt="Instagram" className='redes-socias'/> 
                             </a>
                             <a href="https://twitter.com"> 
-                                <img src="/assets/images/twitterblack.png" alt="Twitter" /> 
+                                <img src="/assets/images/twitterblack.png" alt="Twitter" className='redes-socias'/> 
                             </a>
                             <a href="https://facebook.com"> 
-                                <img src="/assets/images/facebookblack.png" alt="Facebook" /> 
+                                <img src="/assets/images/facebookblack.png" alt="Facebook" className='redes-socias'/> 
                             </a>
                         </div>
                     </div>
