@@ -120,7 +120,7 @@ export default function App() {
                         <img src="/assets/images/unidade2.png" className='fotos-unidades2'/>
                         <div className='info-barbearia'>
                             <p className='endereço'>R. Pedro Escobar, 52 - Jardim Eliana</p>
-                            <h3 className='cidade'>São Paulo - SP</h3>
+                            <h3 className='cidade'>Grajaú - SP</h3>
                         </div>
                     </div>
                     <div className='rodape'>
