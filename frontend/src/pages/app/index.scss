@@ -196,33 +196,31 @@
     padding: 100px;
     background-color: #fff;
 
-    .titulo-unidade {
+        .titulo-unidade {
         font: 700 40px 'Poppins';
         color: #0D121E;
         margin-bottom: 50px;
-    }
-}
+        }
 
-.unidades { // div mae 
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-    .card-unidade {
-        width: 300px;
+        .unidades { // div mae 
+            display: flex;
+            justify-content: center;
+            gap: 20px;
     
+        .card-unidade {
+            width: 300px;
+        
         .fotos-unidades1 {
             width: 300px;
             height: auto;
             border-radius: 10px;
         }
-
+    
         .fotos-unidades2 {
             width: 303px;
-            height: auto;
-            border-radius: 10px;
+            height: auto;                border-radius: 10px;
         }
-
+    
         .info-barbearia {
             background-color: #000000;
             margin: -85px 15px 1px 5px;
@@ -230,44 +228,45 @@
             border-radius: 10px;
             border: 2px solid #474747;
             opacity: 0.7;
-            
-            .endereço {
-                font: 400 14px 'Poppins';
-                color: #ffffff;
-                opacity: 100%;
-            }
-
-            .cidade {
-                font: 800 16px 'Poppins';
-                color: #ffffff;
-                opacity: 100%;
-            }
+                
+        .endereço {
+            font: 400 14px 'Poppins';
+            color: #ffffff;
+            opacity: 100%;
         }
-    }
-}
-
-.rodape { 
-    margin-top: 30px; 
     
-    .apricativos { 
-        display: flex; 
-        justify-content: center; 
-        gap: 10px; 
-        margin-bottom: 10px; 
-
-        a { 
-            color: #000; 
-            font-size: 20px; 
-            text-decoration: none; 
-            
-            &:hover { 
-                color: #007bff;
-            }
+        .cidade {
+            font: 800 16px 'Poppins';
+            color: #ffffff;
+            opacity: 100%;
         }
     }
 }
 
-.rodape{
+    .rodape { 
+        margin-top: 30px; 
+            
+        .apricativos { 
+            display: flex;
+                
+            justify-content: center;
+        }
+        
+        .apricativos img { 
+            margin: 0 5px; 
+            width: auto; 
+            height: 20px; 
+        }
+    }
+}
+}
+
+
+
+
+
+
+/* .rodape{
     display: flex; 
     justify-content: center; 
     margin-top: -17px;
@@ -278,3 +277,4 @@
         height: 20px;
     }
 }
+*/
