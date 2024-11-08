@@ -128,13 +128,13 @@ export default function App() {
                 <div className='rodape'>
                     <div className="redes-socias"> 
                         <a href="https://instagram.com"> 
-                            <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
+                            <img src="/assets/images/instagramblack.png" alt="Instagram" width="28px"/> 
                         </a>
                         <a href="https://twitter.com"> 
-                            <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
+                            <img src="/assets/images/twitterblack.png" alt="Twitter" width="28px"/> 
                         </a>
                         <a href="https://facebook.com"> 
-                            <img src="/assets/images/facebookblack.png" alt="Facebook"/> 
+                            <img src="/assets/images/facebookblack.png" alt="Facebook" width="28px"/> 
                         </a>
                     </div>
                 </div>
