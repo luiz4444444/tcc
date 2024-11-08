@@ -3,7 +3,16 @@
 .pagina-login{
 
     .botao-login{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #F0B35B;
+        color: #000000;
+        width: 54%;
+        height: 10%;
+        border-radius: 25px;
     }
 
     .corpo{
@@ -17,7 +26,6 @@
             width: 100%;
             height: 750px;
             background-color: #4d4d4d;
-            align-items: center;
             
         
             .esquerda{
@@ -30,16 +38,30 @@
                 height: 750px;
                 background-color: #000000;
                 border-radius: 5%;
-                gap: 40px;
+                gap: 48px;
 
                 h1{
                     font-size: 4.5em;
                     font-family: "Pirata-One";
-                    margin-bottom: 100px;   
+                    margin-bottom: 105px;   
                 }
                 h2{
                     font-size: 2.5em;
-                    margin: 60px;
+                    margin-bottom: 105px;
+                }
+            }
+
+            .posicao{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 56%;
+                gap: 50px;
+            
+                h1{
+                    margin-bottom: 200px;
+                    font-size: 4.0em;
                 }
             }
         }

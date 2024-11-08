@@ -6,7 +6,7 @@ export default function App() {
     return(
         <div className='pagina-cliente pagina'>
             <header className='cabecalho'> 
-                <img src="/assets/images/account.png" className='icone' alt='usuario'/>
+                <Link to="/login" className='icone'><img src="/assets/images/account.png" className='icone' alt='usuario'/></Link>
                <div className='textos'>
                 <p>Sobre</p>
                 <p>Serviços</p>

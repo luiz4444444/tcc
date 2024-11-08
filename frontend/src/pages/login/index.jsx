@@ -13,12 +13,12 @@ export default function () {
                     <div className='esquerda'>
                         <h1>Ale Barber</h1>
                         <h2>Novo login</h2>
-                        <Link to="/login" className='botao'>criar conta</Link>
+                        <Link to="/login" className='botao-login'>Criar Conta</Link>
                     </div>
-                    <div>
+                    <div className='posicao'>
                         <h1>Faça login</h1>
-                        <Link to="/login" className='botao'>usuario</Link>
-                        <Link to="/login" className='botao'>senha</Link>
+                        <Link to="/login" className='botao-login'>Usuário</Link>
+                        <Link to="/login" className='botao-login'>Senha</Link>
                     </div>
                     
                 </div>
