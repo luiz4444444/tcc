@@ -123,23 +123,21 @@ export default function App() {
                             <h3 className='cidade'>Grajaú - SP</h3>
                         </div>
                     </div>
-                    <div className='rodape'>
-                        <div className="apricativos"> 
-                            <a href="https://instagram.com"> 
-                                <img src="/assets/images/instagramblack.png" alt="Instagram" className='redes-socias'/> 
-                            </a>
-                            <a href="https://twitter.com"> 
-                                <img src="/assets/images/twitterblack.png" alt="Twitter" className='redes-socias'/> 
-                            </a>
-                            <a href="https://facebook.com"> 
-                                <img src="/assets/images/facebookblack.png" alt="Facebook" className='redes-socias'/> 
-                            </a>
-                        </div>
-                    </div>
-        
                 </div>
-                <img src="/assets/images/" alt="" />
-                <img src="/assets/images/" alt="" />
+
+                <div className='rodape'>
+                    <div className="redes-socias"> 
+                        <a href="https://instagram.com"> 
+                            <img src="/assets/images/instagramblack.png" alt="Instagram"/> 
+                        </a>
+                        <a href="https://twitter.com"> 
+                            <img src="/assets/images/twitterblack.png" alt="Twitter"/> 
+                        </a>
+                        <a href="https://facebook.com"> 
+                            <img src="/assets/images/facebookblack.png" alt="Facebook"/> 
+                        </a>
+                    </div>
+                </div>
             </div>
                 
         </div>
