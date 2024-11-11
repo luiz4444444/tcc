@@ -47,6 +47,28 @@ export default function Agendar() {
             </select>
           </div>
           <div>
+            <label>Selecione uma Serviço</label>
+            <select value={unit} onChange={(e) => setUnit(e.target.value)}>
+            <option value="Escolha um Serviço">Escolha um Serviço</option>
+              <option value="Corte e Sombrancelha">Corte e Sombrancelha</option>
+              <option value="Corte e Sombrancelha">Corte e Sombrancelha</option>
+              <option value="Corte e Progressiva">Corte e Progressiva</option>
+              <option value="Corte e Botox">Corte e Botox</option>
+              <option value="Corte (Degradê)">Corte (Degradê)</option>
+              <option value="Corte + Hidratação">Corte + Hidratação</option>
+              <option value="Cortes + Luzes Platinadas">Cortes + Luzes Platinadas</option>
+              <option value="Platinado Nevou">Platinado Nevou</option>
+              <option value="Pezinho ou Barba (Degradê)">Pezinho ou Barba (Degradê)</option>
+              <option value="Corte Degradê Infantil">Corte Degradê Infantil</option>
+              <option value="Corte Social Infantil">Corte Social Infantil</option>
+              <option value="Corte e Barba (Sombrancelha)">Corte e Barba (Sombrancelha)</option>
+              <option value="Corte Visagismo">Corte Visagismo</option>
+              <option value="Corte & Limpeza de Pele">Corte & Limpeza de Pele</option>
+              <option value="Corte e Barba e Limpeza de Pele">Corte e Barba e Limpeza de Pele</option>
+
+            </select>
+          </div>
+          <div>
             <label>Selecione um horário</label>
             <div className="time-buttons">
               <button type="button" onClick={() => setTime('08:00')}>08:00</button>
