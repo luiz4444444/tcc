@@ -13,10 +13,16 @@ export default function Adm() {
                 </div>
 
                 <div className='painel'>
-                    <div className='pagamento'>
-                        <img src="/assets/images/adm/dinheiro-adm.png" alt="dinheiro-ícone" />
-                        <h1>Pagamento</h1>
-                    </div>
+                    <h1>Resumo Geral</h1>
+                    <img src="/assets/images/adm/grafico-histograma.png" alt="resumo-geral" className='icone'/>
+
+                    <h1>Catálogo</h1>
+                    <img src="/assets/images/adm/aplicativos.png" alt="catalogo" className='icone'/>
+
+                    <h1>Pagamentos</h1>
+                    <img src="/assets/images/adm/dolar.png" alt="pagamentos" className='icone'/>
+
+                    <h1>Profissionais</h1>
                 </div>
             </div>
         </div>

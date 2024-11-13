@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 
 
 
@@ -24,19 +24,44 @@
             }
     
             h1 {
-                font: 500 50px 'Poppins';
+                font: 500 50px 'Faculty Glyphic';
                 color: black;
             }
             
             p{
-                font: 400 30px 'Poppis';
+                font: 400 24px 'Faculty Glyphic';
             }
         }
 
-    .pagamento {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .painel {
+            h1 {
+                font: 400 24px 'Faculty Glyphic';
+                color: black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .icone{
+                width: 28px;
+                height: auto;
+            }
+        }
     }
+
+    .pl {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+        img {
+            margin-left: 15px;
+            width: auto;
+            height: 100px;
+        }
+
+        h1 {
+            font: 400 24px 'Faculty Glyphic';
+        }
     }
 }
