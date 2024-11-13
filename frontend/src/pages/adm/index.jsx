@@ -23,6 +23,7 @@ export default function Adm() {
                     <img src="/assets/images/adm/dolar.png" alt="pagamentos" className='icone'/>
 
                     <h1>Profissionais</h1>
+                    
                 </div>
             </div>
         </div>
