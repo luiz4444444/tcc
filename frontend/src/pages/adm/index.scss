@@ -1,69 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
 
 .pagina-cliente {
+  .mae {
+    background-color: #fff;
+    height: 100vh;
+    flex-direction: column;
 
-    .mae {
-        background-color: #fff;
-        flex-direction: column;
+    .cabeçalho {
+      display: flex;
+      gap: 300px;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 5px;
+      width: 100%;
+      height: auto;
+      background-color: #000000;
 
-        .cabeçalho {
-            display: flex;
-            gap: 300px;
-            align-items: center;
-            justify-content: space-evenly;
-            padding-top: 5px;
-            width: 100%;
-            height: auto;
-            background-color: #000000;
-    
-            img {
-                width: 3.5%;
-                height: auto;
-            }
-    
-            h1 {
-                font: 500 50px 'Faculty Glyphic';
-                color: rgb(255, 255, 255);
-            }
-            
-            .sair {
-                padding-top: 2px;
-                width: 32px;
-                height: auto;
-            }
-        }
+      img {
+        width: 3.5%;
+        height: auto;
+      }
 
-        .painel {
-            h1 {
-                font: 400 24px 'Faculty Glyphic';
-                color: black;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-            }
-            .icone{
-                width: 28px;
-                height: auto;
-            }
-        }
+      h1 {
+        font: 500 50px "Faculty Glyphic";
+        color: rgb(255, 255, 255);
+      }
+
+      .sair {
+        padding-top: 2px;
+        width: 32px;
+        height: auto;
+      }
     }
 
-    .pl {
+    .painel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-top: 50px;
+
+      .duplinha {
         display: flex;
+        flex-direction: row;
+        gap: 20px;
         align-items: center;
-        flex-direction: column;
-
-
-        img {
-            margin-left: 15px;
-            width: auto;
-            height: 100px;
-        }
+        justify-content: center;
+        width: 230px;
+        height: 40px;
 
         h1 {
-            font: 400 24px 'Faculty Glyphic';
+          font: 400 24px "Faculty Glyphic";
+          color: black;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
         }
+        .icone {
+          width: 28px;
+          height: auto;
+        }
+      }
     }
+  }
+
+  .pl {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      margin-left: 15px;
+      width: auto;
+      height: 100px;
+    }
+
+    h1 {
+      font: 400 24px "Faculty Glyphic";
+    }
+  }
 }

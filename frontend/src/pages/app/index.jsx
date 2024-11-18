@@ -8,12 +8,12 @@ export default function App() {
             <header className='cabecalho'>
                 <Link to="/login" className='icone'><img src="/assets/images/account.png" className='icone' alt='usuario' /></Link>
                 <div className='textos'>
-                    <p>Sobre</p>
-                    <p>Serviços</p>
-                    <p>Loja</p>
+                    <a href='#sobre'>Sobre</a>
+                    <a href='#servico'>Serviços</a>
+                    <a>Loja</a>
                 </div>
                 <div className='localiza-botao'>
-                    <Link to="/agendar" className='botao'>Agendar Horário</Link>
+                    <Link to="/agendar" className='botao'>Entrar</Link>
                 </div>
             </header>
 
@@ -21,12 +21,9 @@ export default function App() {
                 <h1 className='barber'>Ale Barber</h1>
                 <h2 className='titulo-text'>CURTA NOSSOS SERVIÇOS DE BARBEIRO</h2>
                 <p className='introducao'>Hórario de funcionamento: 09:00 às 18:00</p>
-                <div className='baixo-botao'>
-                    <Link to="/agendar" className='botao'>Agendar Horário</Link>
-                </div>
             </div>
 
-            <div className='area-sobre'>
+            <div className='area-sobre' id='sobre'>
                 <div className='trabalhos'>
                     <img src="/assets/images/wader.jpg" alt='' />
                 </div>
@@ -37,14 +34,14 @@ export default function App() {
                 </div>
             </div>
 
-            <div className='area-servicos'>
+            <div className='area-servicos' id='servico'>
                 <div className='textos'>
                     <h1>Serviços</h1>
                     <p>Transforme seu visual com nossos cuidados especializados. Aqui na Ale Barber, oferecemos uma experiência única, desde cortes clássicos até estilos modernos. Venha descobrir o que podemos fazer por você!</p>
                 </div>
 
                 <div className='cardes'>
-                    <div className='mae'>
+                    <div className='mae-cima'>
                         <div className='card'>
                             <img src="/assets/images/corte1.png" alt="corte-de-cabelo" />
                             <div className='baixo-carde'>

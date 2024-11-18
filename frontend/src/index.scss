@@ -3,6 +3,8 @@
 * {
   margin: 0px;
   font-family: 'verdana';
+  scroll-behavior: smooth;
+
 };
 
 body {
@@ -54,10 +56,12 @@ body {
   gap: 20px;
   margin: 0px 13px;
 
-  p{
+  a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
   }
  }
 }
