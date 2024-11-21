@@ -33,8 +33,7 @@
       }
     }
 
-    .painel {
-      .container {
+    .conteiner {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -42,41 +41,42 @@
         margin-top: 50px;
         margin-top: 250px;
 
-        .cadastrar {
-          .painel {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            justify-content: space-around;
+        .grupinho {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          justify-content: space-around;
 
-            h1 {
-              font: 600 24px "Faculty Glyphic";
-              color: black;
-            }
-
-            .link-com-imagem {
-              .link-listar {
-                display: flex;
-                align-items: center;
-                margin-right: 40px;
-                text-decoration: none;
-                color: #007bff;
-                font-size: 16px;
-                @@ -66, 27+66, 67 @@
-              }
-
-              & img:hover {
-                opacity: 0.8;
-                opacity: 0.7;
-              }
-            }
-
+          h1 {
+            font: 600 24px "Faculty Glyphic";
+            color: black;
           }
+
+          .link-com-imagem {
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 16px;
+
+            .imagem {
+              width: 40px;
+              height: auto;
+            }
+
+            & img:hover {
+              opacity: 0.8;
+              opacity: 0.7;
+            }
+          }
+
+          
         }
-      }
+      
 
       .link-cadastrar {
         display: flex;
