@@ -44,26 +44,8 @@
           font: 500 4.5em "Poppins";
           margin-bottom: 105px;
         }
-        h2 {
-          font: 500 2.5em "Poppins";
-          margin-bottom: 105px;
-        }
-      }
 
-      .posicao {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 56%;
-        gap: 50px;
-
-        h1 {
-          margin-bottom: 100px;
-          font: 500 4.5em "Poppins";
-        }
-
-        form {
+        .Cadastro {
           display: flex;
           flex-direction: column;
           gap: 30px;
@@ -93,6 +75,53 @@
             font: 400 15px 'Poppins';
             padding-left: 10px;
             outline: none;
+          }
+        }
+
+        .posicao {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 56%;
+          gap: 50px;
+
+          h1 {
+            margin-bottom: 100px;
+            font: 500 4.5em "Poppins";
+          }
+
+          .Login {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 50%;
+
+            & button {
+              border-radius: 30px;
+              background-color: #f0b35b;
+              height: 40px;
+              border: none;
+              font: 600 18px 'Poppins';
+              cursor: pointer;
+            }
+
+            & button:hover {
+              opacity: 0.8;
+            }
+
+            & input {
+              border: 1px solid #f0b35b;
+              border-radius: 30px;
+              height: 40px;
+              background-color: transparent;
+              color: #fff;
+              font: 400 15px 'Poppins';
+              padding-left: 10px;
+              outline: none;
+            }
           }
         }
       }

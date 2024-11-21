@@ -11,16 +11,19 @@ export default function () {
 
                 <div className='direita'>
                     <div className='esquerda'>
-                        <h1>Ale Barber</h1>
-                        <h2>Novo login</h2>
-                        <Link to="/login" className='botao-login'>Criar Conta</Link>
+                        <form className='Cadastro'>
+                            <h1>Cadastro</h1>
+                            <input name='Nome' placeholder="Não use seu nome verdadeiro" type="text" />
+                            <input name='Senha' placeholder="Crie uma senha" type="password" />
+                            <button type='button'>Cadastrar</button>
+                        </form>
                     </div>
                     <div className='posicao'>
-                        <form>
+                        <form className='Login'>
                             <h1>Faça login</h1>
-                            <input name='nome' placeholder="Usuário" type="text" />
-                            <input name='senha' placeholder="Senha" type="password" />
-                            <button type='button'>Cadastrar</button>
+                            <input name='Nome-Login' placeholder="Usuário" type="text" />
+                            <input name='Senha-Login' placeholder="Senha" type="password" />
+                            <button type='button'>Entrar</button>
                         </form>
                     </div>
 
