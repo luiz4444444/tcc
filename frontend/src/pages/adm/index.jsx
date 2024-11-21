@@ -17,15 +17,32 @@ export default function Adm() {
           </Link>
         </div>
 
-        <div className="painel">
-          <div className="cadastrar">
-            <h1>Cadastrar</h1>
-            <Link to="/adm/cadastrar" className="link-com-imagem"> 
-              <img src="/assets/images/adm/cadastro.png" alt="Cadastrar" /> 
+        <div className="container">
+
+          <div className="painel">
+
+            <h1>Listar</h1>
+            <Link to="/adm/listar" className="link-listar">
+              <img src="/assets/images/adm/listar-usuarios.png" alt="listar" />
             </Link>
+
+            <h1>Cadastrar</h1>
+            <Link to="/adm/cadastrar" className="link-cadastrar">
+              <img src="/assets/images/adm/adicionar-usuarios.png" alt="Cadastrar" />
+            </Link>
+
+            <h1>Alterar</h1>
+            <Link to="/adm/alterar" className="link-editar">
+              <img src="/assets/images/adm/editar-usuarios.png" alt="Editar" />
+            </Link>
+
+            <h1>Deletar</h1>
+            <Link to="/adm/alterar" className="link-deletar">
+              <img src="/assets/images/adm/deletar-usuarios.png" alt="Deletar" />
+            </Link>
+
           </div>
 
-          
         </div>
 
       </div>

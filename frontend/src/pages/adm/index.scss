@@ -33,28 +33,28 @@
       }
     }
 
-    .painel {
+    .container {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 20px;
-      margin-top: 50px;
+      margin-top: 250px;
 
-      .cadastrar {
+      .painel {
         display: flex;
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
 
         h1 {
           font: 600 24px "Faculty Glyphic";
           color: black;
         }
 
-        .link-com-imagem {
+        .link-listar {
           display: flex;
           align-items: center;
+          margin-right: 40px;
           text-decoration: none;
           color: #007bff;
           font-size: 16px;
@@ -66,27 +66,67 @@
           }
 
           & img:hover {
-            opacity: 0.8;
+            opacity: 0.7;
           }
         }
 
+        .link-cadastrar {
+          display: flex;
+          align-items: center;
+          margin-right: 40px;
+          text-decoration: none;
+          color: #007bff;
+          font-size: 16px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+
+          & img:hover {
+            opacity: 0.7;
+          }
+        }
+
+        .link-editar {
+          display: flex;
+          align-items: center;
+          margin-right: 40px;
+          text-decoration: none;
+          color: #007bff;
+          font-size: 16px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+
+          & img:hover {
+            opacity: 0.7;
+          }
+        }
+
+        .link-deletar {
+          display: flex;
+          align-items: center;
+          margin-right: 40px;
+          text-decoration: none;
+          color: #007bff;
+          font-size: 16px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+
+          & img:hover {
+            opacity: 0.7;
+          }
+        }
       }
-    }
-  }
-
-  .pl {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    img {
-      margin-left: 15px;
-      width: auto;
-      height: 100px;
-    }
-
-    h1 {
-      font: 400 24px "Faculty Glyphic";
     }
   }
 }
