@@ -4,7 +4,7 @@
   .mae {
     background-color: #fff;
     height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
 
     .cabeçalho {
       display: flex;
@@ -40,14 +40,12 @@
       gap: 20px;
       margin-top: 50px;
 
-      .duplinha {
+      .cadastrar {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
         align-items: center;
         justify-content: center;
-        width: 230px;
-        height: 40px;
 
         h1 {
           font: 400 24px "Faculty Glyphic";
@@ -56,9 +54,16 @@
           flex-direction: row;
           justify-content: space-around;
         }
-        .icone {
-          width: 28px;
-          height: auto;
+
+        & button {
+          width: 10px;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+
+        & button:hover {
+          opacity: 0.8;
         }
       }
     }
