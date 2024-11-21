@@ -20,31 +20,31 @@ export default function Adm() {
         <div className='container'>
 
           <div className='grupinho'>
-            <h1>Listar</h1>
             <Link to="/adm/listar" className="link-com-imagem">
-              <img src="/assets/images/adm/listar-usuarios.png" alt="listar" className='imgagem'/>
+              <img src="/assets/images/adm/listar-usuarios.png" alt="listar" className='imagem'/>
             </Link>
+            <h1>Listar</h1>
           </div>
 
           <div className='grupinho'>
-            <h1>Cadastrar</h1>
             <Link to="/adm/cadastrar" className="link-com-imagem">
-              <img src="/assets/images/adm/cadastro.png" alt="Cadastrar" />
+              <img src="/assets/images/adm/cadastro.png" alt="Cadastrar" className='imagem'/>
             </Link>
+            <h1>Cadastrar</h1>
           </div>
 
           <div className='grupinho'>
+            <Link to="/adm/alterar" className="link-com-imagem">
+              <img src="/assets/images/adm/editar-usuarios.png" alt="Editar" className='imagem'/>
+            </Link>
             <h1>Alterar</h1>  
-            <Link to="/adm/alterar" className="link-editar">
-              <img src="/assets/images/adm/editar-usuarios.png" alt="Editar" />
-            </Link>
           </div>
 
           <div className='grupinho'>
-            <h1>Deletar</h1>
-            <Link to="/adm/alterar" className="link-deletar">
-              <img src="/assets/images/adm/deletar-usuarios.png" alt="Deletar" />
+            <Link to="/adm/alterar" className="link-com-imagem">
+              <img src="/assets/images/adm/deletar-usuarios.png" alt="Deletar" className='imagem'/>
             </Link>
+            <h1>Deletar</h1>
           </div>
         </div>
       </div>
