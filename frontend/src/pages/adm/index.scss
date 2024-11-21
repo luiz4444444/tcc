@@ -48,23 +48,28 @@
         justify-content: center;
 
         h1 {
-          font: 400 24px "Faculty Glyphic";
+          font: 600 24px "Faculty Glyphic";
           color: black;
+        }
+
+        .link-com-imagem {
           display: flex;
-          flex-direction: row;
-          justify-content: space-around;
+          align-items: center;
+          text-decoration: none;
+          color: #007bff;
+          font-size: 16px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+
+          & img:hover {
+            opacity: 0.8;
+          }
         }
 
-        & button {
-          width: 10px;
-          background-color: transparent;
-          border: none;
-          cursor: pointer;
-        }
-
-        & button:hover {
-          opacity: 0.8;
-        }
       }
     }
   }

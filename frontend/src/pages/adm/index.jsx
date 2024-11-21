@@ -20,11 +20,14 @@ export default function Adm() {
         <div className="painel">
           <div className="cadastrar">
             <h1>Cadastrar</h1>
-            <button>
-              <img src="/assets/images/adm/cadastro.png" alt="Cadastrar" />
-            </button>
+            <Link to="/adm/cadastrar" className="link-com-imagem"> 
+              <img src="/assets/images/adm/cadastro.png" alt="Cadastrar" /> 
+            </Link>
           </div>
+
+          
         </div>
+
       </div>
     </div>
   );
