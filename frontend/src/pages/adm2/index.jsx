@@ -1,16 +1,23 @@
+import { useEffect, useState, useRef } from 'react'
 import './index.scss'
-import React, { useState }  from 'react';
 import { Link } from 'react-router-dom'
+import api from '/services/api'
+
 
 export default function Adm2(){
-    const users = [
-        {
-            id: '8128428',
-            nome: 'luiz',
-            idade: 17,
-            email: 'alvesluiz547@gamil.com'
-        },
-    ]
+    const [users, setUsers] = useState([])
+
+    const inputName = useRef()
+    
+      async function getUsers(){
+        const usersFromApi = await api.get('/clientes')
+    
+        setUsers(usersFromApi.data)
+      }
+    
+      useEffect(() => {
+        getUsers()
+      }, [])
 
     const [name, setName] = useState('');
     const [date, setDate] = useState('');
