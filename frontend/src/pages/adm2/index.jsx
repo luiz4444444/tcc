@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom'
-import api from '/services/api'
+import api from 'frontend/src/services/api'
 
 
 export default function Adm2(){
@@ -74,9 +74,9 @@ const inputTime = useRef()
                     <option value="Corte & Limpeza de Pele">Corte & Limpeza de Pele</option>
                     <option value="Corte e Barba e Limpeza de Pele">Corte e Barba e Limpeza de Pele</option>
                 </select>
-<<<<<<< HEAD
+
                 <div className="horas">
-                    <button type="button" onClick={() => setTime('08:00')}>08:00</button>
+                    <button type="button" onClick={() => setTime('08:00')}>08:00</button >
                     <button type="button" onClick={() => setTime('09:00')}>09:00</button>
                     <button type="button" onClick={() => setTime('10:00')}>10:00</button>
                     <button type="button" onClick={() => setTime('11:00')}>11:00</button>
@@ -90,9 +90,7 @@ const inputTime = useRef()
                     <button type="button" onClick={() => setTime('19:00')}>19:00</button>
                 </div>
                 <button type='button'>cadastrar</button>
-=======
                 <button type='button' onClick={createUsers}>cadastrar</button>
->>>>>>> 797d722facfe2e3841a815bb4cd38f380c31ed76
             </form>
 
             {users.map((user) =>(
