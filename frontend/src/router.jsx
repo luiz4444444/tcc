@@ -5,6 +5,7 @@ import Erro from './pages/erro'
 import Agendar from "./pages/agendar";
 import Login from "./pages/login";
 import Adm from "./pages/adm";
+import Adm2 from "./pages/adm2";
 
 export default function Navegação(){
 
@@ -15,6 +16,7 @@ export default function Navegação(){
                 <Route path="/agendar" element={<Agendar/>} />
                 <Route path="/login" element={<Login/>} />
                 <Route path="/adm" element={<Adm/>} />
+                <Route path="/adm2" element={<Adm2/>} />
                 <Route path="*" element={<Erro/>} />
             </Routes>
         </BrowserRouter>
