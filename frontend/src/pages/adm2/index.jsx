@@ -5,19 +5,34 @@ import api from '/services/api'
 
 
 export default function Adm2(){
-    const [users, setUsers] = useState([])
+const [users, setUsers] = useState([])
 
-    const inputName = useRef()
+const inputName = useRef()
+const inputDate = useRef()
+const inputUnit = useRef()
+const inputTime = useRef()
     
-      async function getUsers(){
-        const usersFromApi = await api.get('/clientes')
+    async function getUsers(){
+    const usersFromApi = await api.get('/clientes')
     
-        setUsers(usersFromApi.data)
-      }
+    setUsers(usersFromApi.data)
+    }
+
+    async function createUsers(){
+
+        await api.post('/clientes', {
+            name: inputName.current.value,
+            data: inputDate.current.value,
+            unit: inputUnit.current.value,
+            time: inputTime.current.value
+        })
+        
+        getUsers(usersFromApi.data)
+    }
     
-      useEffect(() => {
-        getUsers()
-      }, [])
+    useEffect(() => {
+    getUsers()
+    }, [])
 
     const [name, setName] = useState('');
     const [date, setDate] = useState('');
@@ -34,14 +49,14 @@ export default function Adm2(){
             <form>
                 <h1>Agendar</h1>
 
-                <input placeholder='Nome' className='nome' type="text" />
-                <input placeholder='Data' className='data' type='date'/>
-                <select value={unit} onChange={(e) => setUnit(e.target.value)}>
+                <input placeholder='Nome' className='nome' type="text" ref={inputName} />
+                <input placeholder='Data' className='data' type='date' ref={inputDate}/>
+                <select value={unit} onChange={(e) => setUnit(e.target.value)} ref={inputUnit}>
                     <option value="">Escolha uma unidade</option>
                     <option value="R. Pedro Escobar, 52 - Jardim Eliana">R. Pedro Escobar, 52 - Jardim Eliana</option>
                     <option value="Avenida Washington Luís, 1234 - Brooklin">Avenida Washington Luís, 1234 - Brooklin</option>
                 </select>
-                <select value={unit} onChange={(e) => setUnit(e.target.value)}>
+                <select value={unit} onChange={(e) => setUnit(e.target.value)} ref={inputUnit}>
                     <option value="Escolha um Serviço">Escolha um Serviço</option>
                     <option value="Corte e Sombrancelha">Corte e Sombrancelha</option>
                     <option value="Corte e Sombrancelha">Corte e Sombrancelha</option>
@@ -59,7 +74,7 @@ export default function Adm2(){
                     <option value="Corte & Limpeza de Pele">Corte & Limpeza de Pele</option>
                     <option value="Corte e Barba e Limpeza de Pele">Corte e Barba e Limpeza de Pele</option>
                 </select>
-                <button type='button'>cadastrar</button>
+                <button type='button' onClick={createUsers}>cadastrar</button>
             </form>
 
             {users.map((user) =>(
