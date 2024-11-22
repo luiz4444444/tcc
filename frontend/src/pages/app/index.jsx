@@ -12,9 +12,6 @@ export default function App() {
                     <a href='#servico'>Serviços</a>
                     <a>Loja</a>
                 </div>
-                <div className='localiza-botao'>
-                    <Link to="/agendar" className='botao'>Entrar</Link>
-                </div>
             </header>
 
             <div className='area-introducao'>
@@ -120,19 +117,6 @@ export default function App() {
                             <h3 className='cidade'>Grajaú - SP</h3>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className='rodape'>
-                <div className="redes-socias">
-                    <a href="https://instagram.com">
-                        <img src="/assets/images/instagramblack.png" alt="Instagram" width="28px" />
-                    </a>
-                    <a href="https://twitter.com">
-                        <img src="/assets/images/twitterblack.png" alt="Twitter" width="28px" />
-                    </a>
-                    <a href="https://facebook.com">
-                        <img src="/assets/images/facebookblack.png" alt="Facebook" width="28px" />
-                    </a>
                 </div>
             </div>
         </div>

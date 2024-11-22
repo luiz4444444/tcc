@@ -1,8 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom'
-import api from 'frontend/src/services/api'
-
+import api from "../../services/api"
 
 export default function Adm2(){
 const [users, setUsers] = useState([])
