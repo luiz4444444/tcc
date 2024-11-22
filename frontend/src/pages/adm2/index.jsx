@@ -27,7 +27,12 @@ const inputTime = useRef()
             time: inputTime.current.value
         })
         
-        getUsers(usersFromApi.data)
+        getUsers() 
+    }
+
+    async function deleteUsers() {
+        const usersFromApi = await api.get('/usuarios')
+        setUsers(usersFromApi.data)
     }
     
     useEffect(() => {
@@ -96,7 +101,7 @@ const inputTime = useRef()
             {users.map((user) =>(
                 <div key={user.id} className='card'>
                     <div>
-                        <p>Nome: {user.nome}</p>
+                        <p>Nome:  {user.nome}</p>
                         <p>idade: {user.idade}</p>
                         <p>email: {user.email}</p>  
                     </div>
