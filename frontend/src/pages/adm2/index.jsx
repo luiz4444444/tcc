@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
 import './index.scss'
+import axios from 'axios'
 import { Link } from 'react-router-dom'
 import api from "../../services/api"
 
@@ -27,11 +28,6 @@ const inputTime = useRef()
         })
         
         getUsers() 
-    }
-
-    async function deleteUsers() {
-        const usersFromApi = await api.get('/usuarios')
-        setUsers(usersFromApi.data)
     }
     
     useEffect(() => {
@@ -93,23 +89,8 @@ const inputTime = useRef()
                     <button type="button" onClick={() => setTime('18:00')}>18:00</button>
                     <button type="button" onClick={() => setTime('19:00')}>19:00</button>
                 </div>
-                <button type='button'>cadastrar</button>
                 <button type='button' onClick={createUsers}>cadastrar</button>
             </form>
-
-            {users.map((user) =>(
-                <div key={user.id} className='card'>
-                    <div>
-                        <p>Nome:  {user.nome}</p>
-                        <p>idade: {user.idade}</p>
-                        <p>email: {user.email}</p>  
-                    </div>
-                    <button>
-                        
-                    </button>
-                </div>
-            ))}
-            
         </div>
     )
     
